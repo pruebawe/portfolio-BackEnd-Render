@@ -31,7 +31,7 @@ import com.portfolio.ML.Security.Service.RolService;
 import com.portfolio.ML.Security.Service.UsuarioService;
 
 @RestController
-@CrossOrigin
+@CrossOrigin(origins = "https://frontend-ml.web.app/")
 public class AuthController {
     @Autowired
     PasswordEncoder passwordEncoder;

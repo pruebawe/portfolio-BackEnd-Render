@@ -23,8 +23,8 @@ import com.portfolio.ML.Service.SHyS;
 
 @RestController
 @RequestMapping("/hys")
-//*@CrossOrigin(origins = "https://frontend-ml.web.app/")*//
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = "https://frontend-ml.web.app/")
+//*@CrossOrigin(origins = "http://localhost:4200/")*//
 public class CHyS {
     @Autowired
     SHyS shys;
