@@ -21,8 +21,8 @@ import com.portfolio.ML.Service.ImpPersonaService;
 
 @RestController
 @RequestMapping("/personas")
-//*@CrossOrigin(origins = "https://frontend-ml.web.app/")*//
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = "https://frontend-ml.web.app/")
+//*@CrossOrigin(origins = "http://localhost:4200/")*//
 public class PersonaController {
     @Autowired
     ImpPersonaService personaService;
