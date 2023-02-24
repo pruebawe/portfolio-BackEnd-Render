@@ -80,6 +80,7 @@ public class Experiencia {
     public void setImgE(String imgE) {
         this.imgE = imgE;
     }
+    
 
     
 }

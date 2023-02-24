@@ -6,6 +6,10 @@ public class dtoEducacion {
     @NotBlank
     private String nombreE;
     @NotBlank
+    private String fechaInicio;
+    @NotBlank
+    private String fechaFin;
+    @NotBlank
     private String descripcionE;
     @NotBlank
     private String imgE;
@@ -13,10 +17,12 @@ public class dtoEducacion {
     public dtoEducacion() {
     }
 
-    public dtoEducacion(@NotBlank String nombreE, @NotBlank String descripcionE, @NotBlank String imgE) {
+    public dtoEducacion(@NotBlank String nombreE, @NotBlank String descripcionE, @NotBlank String imgE, @NotBlank String fechaInicio, @NotBlank String fechaFin) {
         this.nombreE = nombreE;
         this.descripcionE = descripcionE;
         this.imgE = imgE;
+        this.fechaInicio = fechaInicio;
+        this.fechaFin = fechaFin;
     }
 
     public String getNombreE() {
@@ -43,5 +49,22 @@ public class dtoEducacion {
         this.imgE = imgE;
     }
 
+    public String getFechaInicio() {
+        return fechaInicio;
+    }
+
+    public void setFechaInicio(String fechaInicio) {
+        this.fechaInicio = fechaInicio;
+    }
+
+    public String getFechaFin() {
+        return fechaFin;
+    }
+
+    public void setFechaFin(String fechaFin) {
+        this.fechaFin = fechaFin;
+    }
+
+    
     
 }

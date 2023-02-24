@@ -64,7 +64,7 @@ public class CEducacion {
         }
 
         Educacion educacion = new Educacion (
-            dtoeducacion.getNombreE(), dtoeducacion.getDescripcionE(),dtoeducacion.getImgE()
+            dtoeducacion.getNombreE(), dtoeducacion.getDescripcionE(),dtoeducacion.getImgE(), dtoeducacion.getFechaInicio(), dtoeducacion.getFechaFin()
         );
 
         sEducacion.save(educacion);
@@ -88,6 +88,8 @@ public class CEducacion {
         educacion.setNombreE(dtoeducacion.getNombreE());
         educacion.setDescripcionE(dtoeducacion.getDescripcionE());
         educacion.setImgE(dtoeducacion.getImgE());
+        educacion.setFechaInicio (dtoeducacion.getFechaInicio());
+        educacion.setFechaFin(dtoeducacion.getFechaFin());
 
         sEducacion.save(educacion);
 
