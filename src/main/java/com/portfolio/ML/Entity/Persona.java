@@ -24,20 +24,27 @@ public class Persona {
     private String apellido;
     
     @NotNull
+    private String titulo;
+    
+    @NotNull
     private String descripcion;
 
     private String img;
+    
+    private String banner;
 
      public Persona() {
     }
 
     public Persona(@NotNull @Size(min = 1, max = 50, message = "no cumple con la longitud") String nombre,
             @NotNull @Size(min = 1, max = 50, message = "no cumple con la longitud") String apellido,
-            @NotNull String descripcion, String img) {
+            String titulo, @NotNull String descripcion, String img, String banner) {
         this.nombre = nombre;
         this.apellido = apellido;
+        this.titulo = titulo;
         this.descripcion = descripcion;
         this.img = img;
+        this.banner = banner;
     }
 
     public int getId() {
@@ -80,6 +87,21 @@ public class Persona {
         this.img = img;
     }
 
-    
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getBanner() {
+        return banner;
+    }
+
+    public void setBanner(String banner) {
+        this.banner = banner;
+    }
+
 
 }

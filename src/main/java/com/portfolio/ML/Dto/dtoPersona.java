@@ -11,20 +11,28 @@ public class dtoPersona {
     private String Apellido;
     
     @NotBlank
+    private String titulo;
+    
+    @NotBlank
     private String descripcion;
 
     @NotBlank
     private String img;
+    
+    @NotBlank
+    private String banner;
 
     public dtoPersona() {
     }
 
-    public dtoPersona(@NotBlank String nombre, @NotBlank String apellido, @NotBlank String descripcion,
-            @NotBlank String img) {
-        Nombre = nombre;
-        Apellido = apellido;
+    public dtoPersona(@NotBlank String nombre, @NotBlank String apellido, @NotBlank String titulo, @NotBlank String descripcion,
+            @NotBlank String img, @NotBlank String banner) {
+        this.Nombre = nombre;
+        this.Apellido = apellido;
+        this.titulo = titulo;
         this.descripcion = descripcion;
         this.img = img;
+        this.banner = banner;
     }
 
     public String getNombre() {
@@ -57,6 +65,22 @@ public class dtoPersona {
 
     public void setImg(String img) {
         this.img = img;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getBanner() {
+        return banner;
+    }
+
+    public void setBanner(String banner) {
+        this.banner = banner;
     }
 
     
