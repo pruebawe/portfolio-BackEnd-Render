@@ -10,6 +10,7 @@ C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Entity\HyS.java
 C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Security\Jwt\JwtTokenFilter.java
 C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Security\Dto\LoginUsuario.java
 C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Service\SHyS.java
+C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Repository\RProyecto.java
 C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Entity\Experiencia.java
 C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\MlApplication.java
 C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Dto\dtoEducacion.java
@@ -23,6 +24,7 @@ C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Entity\Persona.jav
 C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Repository\RExperiencia.java
 C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Controller\CExperiencia.java
 C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Entity\Educacion.java
+C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Entity\Proyecto.java
 C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Security\Entity\Usuario.java
 C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Repository\RHys.java
 C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Security\Controller\Mensaje.java
@@ -33,7 +35,10 @@ C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Security\Service\U
 C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Security\Repository\iUsuarioRepository.java
 C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Security\Service\RolService.java
 C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Service\SExperiencia.java
+C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Controller\CProyecto.java
 C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Repository\IPersonaRepository.java
 C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Dto\dtoExperiencia.java
+C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Service\SProyecto.java
 C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Security\Enums\RolNombre.java
 C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Dto\dtoHyS.java
+C:\Users\cheto\Downloads\ML\ML\src\main\java\com\portfolio\ML\Dto\dtoProyecto.java

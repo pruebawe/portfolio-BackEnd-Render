@@ -1,9 +1,11 @@
 com\portfolio\ML\Repository\RExperiencia.class
 com\portfolio\ML\Controller\CHyS.class
 com\portfolio\ML\Controller\CEducacion.class
+com\portfolio\ML\Repository\RProyecto.class
 com\portfolio\ML\Service\SExperiencia.class
 com\portfolio\ML\Controller\CExperiencia.class
 com\portfolio\ML\Dto\dtoEducacion.class
+com\portfolio\ML\Entity\Proyecto.class
 com\portfolio\ML\Entity\Persona.class
 com\portfolio\ML\Dto\dtoHyS.class
 com\portfolio\ML\Security\Controller\AuthController.class
@@ -32,8 +34,11 @@ com\portfolio\ML\Service\SHyS.class
 com\portfolio\ML\Repository\REducacion.class
 com\portfolio\ML\Security\Entity\Rol.class
 com\portfolio\ML\Security\Dto\LoginUsuario.class
+com\portfolio\ML\Controller\CProyecto.class
 com\portfolio\ML\Security\Entity\UsuarioPrincipal.class
+com\portfolio\ML\Dto\dtoProyecto.class
 com\portfolio\ML\Security\Service\RolService.class
 com\portfolio\ML\Repository\IPersonaRepository.class
+com\portfolio\ML\Service\SProyecto.class
 com\portfolio\ML\Security\Dto\NuevoUsuario.class
 com\portfolio\ML\Security\Jwt\JwtTokenFilter.class
